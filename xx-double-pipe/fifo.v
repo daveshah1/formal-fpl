@@ -1,5 +1,5 @@
 `default_nettype	none
-module	pipe(i_clk, i_reset, i_ce, i_in, o_bit);
+module	fifo(i_clk, i_reset, i_ce, i_in, o_bit);
 	parameter		LN=8;
     parameter       INITIAL_FILL = { { (LN-1){1'b0}}, 1'b1 };
 	input	wire			i_clk, i_reset, i_ce, i_in;
