@@ -1,0 +1,24 @@
+[*]
+[*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+[*] Sun Jun  9 14:18:35 2019
+[*]
+[dumpfile] "/home/matt/wosh-presentation/xx-simple-counter/counter/engine_0/trace_induct.vcd"
+[dumpfile_mtime] "Sun Jun  9 14:17:21 2019"
+[dumpfile_size] 1927
+[savefile] "/home/matt/wosh-presentation/xx-simple-counter/counter.gtkw"
+[timestart] 120
+[size] 1000 600
+[pos] -1 -1
+*-5.025105 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 223
+[signals_width] 160
+[sst_expanded] 1
+[sst_vpaned_height] 152
+@420
+smt_step
+@28
+counter.clk
+@25
+counter.counter[15:0]
+[pattern_trace] 1
+[pattern_trace] 0
