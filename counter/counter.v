@@ -4,13 +4,13 @@ module counter (input clk);
     initial counter=0;
 
     always @(posedge clk)
-        if(counter==16'd22)
-            counter<=0;
+        if(counter == 16'd22)
+            counter <= 0;
         else
-            counter<=counter+1'b1;
+            counter <= counter +1'b1;
 
     `ifdef FORMAL
     always @(*)
-        assert(counter!=16'd500);
+        assert(counter != 16'd500);
     `endif
 endmodule
