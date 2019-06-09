@@ -1,31 +1,36 @@
 [*]
 [*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
-[*] Sat Jun  8 19:54:47 2019
+[*] Sun Jun  9 14:14:01 2019
 [*]
-[dumpfile] "/home/matt/fpga/formal-training/exercises/exercise-04/dblpipe/engine_0/trace_induct.vcd"
-[dumpfile_mtime] "Sat Jun  8 19:54:12 2019"
-[dumpfile_size] 3012
-[savefile] "/home/matt/fpga/formal-training/exercises/exercise-04/dblpipe.gtkw"
+[dumpfile] "/home/matt/wosh-presentation/xx-double-fifo/dblfifo/engine_0/trace_induct.vcd"
+[dumpfile_mtime] "Sun Jun  9 14:13:00 2019"
+[dumpfile_size] 4874
+[savefile] "/home/matt/wosh-presentation/xx-double-fifo/dblfifo.gtkw"
 [timestart] 0
 [size] 1000 600
 [pos] -1 -1
-*-6.025105 84 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
-[treeopen] dblpipe.
+*-7.025105 162 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] dblfifo.
 [sst_width] 223
 [signals_width] 231
 [sst_expanded] 1
 [sst_vpaned_height] 152
 @420
 smt_step
-@24
-dblpipe.ce_count[1:0]
 @28
-dblpipe.i_ce
-dblpipe.b_data
-dblpipe.a_data
-dblpipe.o_data
-dblpipe.one.sreg[7:0]
+dblfifo.i_clk
+dblfifo.i_ce
+@200
+-
+@28
+dblfifo.a_data
+dblfifo.b_data
 @29
-dblpipe.two.sreg[7:0]
+dblfifo.o_data
+@200
+-
+@28
+dblfifo.one.sreg[7:0]
+dblfifo.two.sreg[7:0]
 [pattern_trace] 1
 [pattern_trace] 0
