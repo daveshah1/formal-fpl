@@ -1,4 +1,4 @@
-busy-counter/counter/
+busy_counter/counter/
 counter/counter/
-double-fifo/dblfifo/
-wolf-goat-cabbage/wolf_goat_cabbage/
+double_shift_reg/double_shift_reg/
+wolf_goat_cabbage/wolf_goat_cabbage/
